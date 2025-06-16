@@ -9,7 +9,7 @@ function MovieCard({ id, title, poster }) {
         <img src={posterUrl} alt={altText} />
       </figure>
       <h3>{title}</h3>
-      <Link to={`/about-movie/${id}`}>Les mer</Link>
+      <Link to={`/about-movie/${id}`}>Read more</Link>
     </article>
   );
 }
