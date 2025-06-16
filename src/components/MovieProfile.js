@@ -1,5 +1,3 @@
-import React from 'react';
-
 const MovieProfile = ({ movie }) => {
     const posterUrl = movie.Poster !== 'N/A' ? movie.Poster : 'https://picsum.photos/200/300';
     const altText = `Poster image of the movie ${movie.Title}.`;
